@@ -46,7 +46,7 @@
                             <compilerArgs>
                                 <arg>-AonlyDefs=foo\.bar\.Test</arg>
                                 <!-- Debug for stepping through checker in forked VM -->
-                                <arg>-J-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005</arg>
+<!--                                <arg>-J-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005</arg>-->
                             </compilerArgs>
                         </configuration>
                     </plugin>
